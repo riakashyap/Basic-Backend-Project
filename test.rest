@@ -1,0 +1,23 @@
+### TEST GET HOMEPAGE WEBSITE
+GET http://localhost:8383
+
+
+### TEST GET DASHBOARD WEBSITE 
+GET http://localhost:8383/dashboard
+
+
+### DATA ENDPOINT
+GET http://localhost:8383/api/data
+
+### DATA ENDPOINT FOR CREATING A USER
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+  "name": "testuser"
+}
+
+### DATA ENDPOINT FOR DELETE AN ENDPOINT
+DELETE http://localhost:8383/api/data
+
+
